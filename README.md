@@ -12,6 +12,7 @@ Twitter : [M Rizqi Ariadi](https://twitter.com/MRizqiAriadi)
 1. GIT & GITHUB
     * Tujuan
     * Kelebihan
+    * Sejarah
     * Membuat Repository GITHUB
     * Menggunakan GIT pada windows
     * Menggunakan GIT pada Linux
