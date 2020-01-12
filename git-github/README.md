@@ -10,7 +10,7 @@ Twitter : [M Rizqi Ariadi](https://twitter.com/MRizqiAriadi)
 
 ## Tujuan
 
-Pada DevNotes kali ini, Anda akan mempelajari bagaimana cara membuat Repository pada GITHUB dan bagaimana menggunakan git dalam development aplikasi. Hasil dari DevNotes kali ini akan seperti ini:
+Pada DevNotes kali ini, Anda akan mempelajari bagaimana cara membuat Repository pada GITHUB dan bagaimana menggunakan git dalam _development apps_. Hasil dari DevNotes kali ini akan seperti ini:
 
 ## Tools yang dibutuhkan
 
@@ -84,10 +84,9 @@ Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat me
     <img src="images/copy_link_repository.JPG" width="300" title="Button Copy Link URL">
     
 2. Buka Command Prompt(CMD) anda, sebelum kita melakukan *clone repository* pastikan anda melihat *folder/directory* __Documents__ dengan menggunakan perintah __dir__ untuk menampilkan isi dari *folder* C:\Users\~username_anda.
+`Apabila anda sudah memahami perintah Command Prompt (CMD) silahkan letakkan pada folder/directory yang anda diinginkan.`
 
-> Apabila anda sudah memahami perintah Command Prompt (CMD) silahkan letakkan pada folder/directory yang anda diinginkan.
-
-    ``` diff
+    ```diff
     Microsoft Windows [Version 6.3.9600]
     (c) 2013 Microsoft Corporation. All rights reserved.
 
@@ -108,7 +107,7 @@ Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat me
     07/13/2019  04:56 AM    <DIR>          Cisco Packet Tracer 7.2.1
     03/17/2019  04:03 PM    <DIR>          Contacts
     01/06/2020  10:18 PM    <DIR>          Desktop
-    +01/12/2020  08:01 AM    <DIR>          Documents
+  + 01/12/2020  08:01 AM    <DIR>          Documents
     01/12/2020  07:04 AM    <DIR>          Downloads
     03/17/2019  04:03 PM    <DIR>          Favorites
     03/17/2019  04:03 PM    <DIR>          Links
@@ -130,7 +129,7 @@ Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat me
 
 4. Selanjutnya, lakukan _clone_ dengan perintah __git clone YOUR-URL-REPOSITORY__ sebagai berikut:
 
-    ```diff
+    ```
     C:\Users\mhmmdrizqi\Documents>git clone https://github.com/<username>/First-Repository.git
     ```
 5. Tunggu sampai proses download _repository_ selesai seperti ini:
@@ -154,7 +153,9 @@ Sekarang kita dapat menambahkan/mengubah/menghapus ___file___ ataupun ___folder_
 Ada banyak perintah yang dapat anda lakukan, tetapi kita akan belajar beberapa perintah yang sering digunakan saja. Kemudian alur direktori git hanya sebagai tambahan pemahaman saja, untuk mengetahui letak pada saat anda melakukan beberapa perintah tersebut.
 
 #### Perintah
+
 Untuk melakukan singkronisasi perubahan ada beberapa perintah yang dapat anda gunakan sebagai berikut:
+
 + __git fetch__
 
 Unduh semua riwayat dari _remote tracking branchs_ 
@@ -172,6 +173,7 @@ Unggah semua _commit branch_ lokal ke GitHub
 Memperbarui _branch_ tempat kerja lokal Anda saat ini dengan yang baru. Melakukan dari _remote tracking branchs_ yang sesuai di GitHub. (__git pull__ adalah kombinasi dari git fetch dan git merge)
 
 Untuk melakukan perubahan ada beberapa perintah yang dapat anda gunakan sebagai berikut:
+
 + __git show [commit]__
 
 Metadata keluaran dan perubahan konten dari _commit_ yang ditentukan.
