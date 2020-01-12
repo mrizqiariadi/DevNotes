@@ -1,9 +1,11 @@
 # DevNotes
 Author: Muhammad Rizqi Ariadi
 
-Linkedin: Muhammad Rizqi Ariadi
+Linkedin: [Muhammad Rizqi Ariadi](https://www.linkedin.com/in/muhammad-rizqi-ariadi-bba168110/)
 
-Facebook: M Rizqi Ariadi
+Facebook: [M Rizqi Ariadi](https://www.facebook.com/Muhammad.Rizqi.Ariadi)
+
+Twitter : [M Rizqi Ariadi](https://twitter.com/MRizqiAriadi)
 
 ## Daftar ISI
 
