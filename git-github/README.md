@@ -122,14 +122,14 @@ Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat me
 
 3. Menggunakan perintah __CD__ untuk dapat masuk ke *folder/directory* __Documents__.
 
-    ```
+    ```CMD
     C:\Users\mhmmdrizqi>cd Documents
     C:\Users\mhmmdrizqi\Documents>
     ```
 
 4. Selanjutnya, lakukan _clone_ dengan perintah __git clone YOUR-URL-REPOSITORY__ sebagai berikut:
 
-    ```
+    ```CMD
     C:\Users\mhmmdrizqi\Documents>git clone https://github.com/<username>/First-Repository.git
     ```
 5. Tunggu sampai proses download _repository_ selesai seperti ini:
