@@ -10,7 +10,7 @@ Twitter : [M Rizqi Ariadi](https://twitter.com/MRizqiAriadi)
 
 ## Tujuan
 
-Pada DevNotes kali ini, Anda akan mempelajari bagaimana cara membuat Repository pada GITHUB dan bagaimana menggunakan git dalam _development apps_. Hasil dari DevNotes kali ini akan seperti ini:
+Pada DevNotes kali ini, Anda akan mempelajari bagaimana cara membuat Repository pada GitHub dan bagaimana menggunakan git dalam _development apps_. Hasil dari DevNotes kali ini akan seperti ini:
 
 ## Tools yang dibutuhkan
 
@@ -47,12 +47,12 @@ Pada 2005, hubungan antara komunitas yang mengembangkan kernel Linux dan perusah
 Sejak kelahirannya pada 2005, Git telah berevolusi dan berkembang untuk dapat digunakan dengan mudah namun tetap memiliki kualitas awal tersebut. Git sangat cepat, sangat efisien dengan proyek-proyek besar, dan Git memiliki sistem percabangan yang hebat untuk pengembangan non-linear.
 + [Referensi](https://git-scm.com/book/id/v2/Memulai-Sejarah-Singkat-Git) - Baca Sejarah GIT Selengkapnya
 
-## Join GITHUB
-+ Membuka halaman [Join Github](https://github.com/join) → melakukan pendaftaran akun github → melakukan konfirmasi pada email anda.
+## Join GitHub
++ Membuka halaman [Join GitHub](https://github.com/join) → melakukan pendaftaran akun github → melakukan konfirmasi pada email anda.
 
   <img src="images/register_github.JPG" width="500" title="Join Github">
 
-## DevNotes Buat Repositori dari GITHUB
+## DevNotes Buat Repositori dari GitHub
 
 1. Klik tombol → Tambah (__+__) → Memilih menu __new repository__.
 
@@ -73,11 +73,11 @@ Sejak kelahirannya pada 2005, Git telah berevolusi dan berkembang untuk dapat di
     
    - [x] Selamat anda telah berhasil membuat _repository_ baru :+1:
 
-## DevNotes _Clone Repository_ dari GITHUB
+## DevNotes _Clone Repository_ dari GitHub
 
 Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat mengambil repositori tersebut dengan melakukan _clone_ dari github ke lokal komputer anda dengan cara sebagai berikut:
 
-1. Klik tombol → __Clone or download__ → memilih tombol __copy URL__ / __blok link URL__(Copy).
+1. Klik tombol __Clone or download__ → memilih tombol __copy URL__ / __blok link URL__(Copy).
 
     <img src="images/clone_repository.JPG" width="300" title="Button Clone">
     
@@ -86,7 +86,7 @@ Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat me
 2. Buka Command Prompt(CMD) anda, sebelum kita melakukan *clone repository* pastikan anda melihat *folder/directory* __Documents__ dengan menggunakan perintah __dir__ untuk menampilkan isi dari *folder* C:\Users\~username_anda.
 `Apabila anda sudah memahami perintah Command Prompt (CMD) silahkan letakkan pada folder/directory yang anda diinginkan.`
 
-    ```diff
+    ```
     Microsoft Windows [Version 6.3.9600]
     (c) 2013 Microsoft Corporation. All rights reserved.
 
@@ -107,7 +107,7 @@ Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat me
     07/13/2019  04:56 AM    <DIR>          Cisco Packet Tracer 7.2.1
     03/17/2019  04:03 PM    <DIR>          Contacts
     01/06/2020  10:18 PM    <DIR>          Desktop
-  + 01/12/2020  08:01 AM    <DIR>          Documents
+    01/12/2020  08:01 AM    <DIR>          Documents
     01/12/2020  07:04 AM    <DIR>          Downloads
     03/17/2019  04:03 PM    <DIR>          Favorites
     03/17/2019  04:03 PM    <DIR>          Links
@@ -144,9 +144,9 @@ Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat me
      
    - [x] Selamat anda telah berhasil melakukan _clone repository_ :+1:
    
-## DevNotes Menambahkan _file_ ke _Repository_ GITHUB
+## DevNotes Menambahkan _file_ ke _Repository_ GitHub
 
-Sekarang kita dapat menambahkan/mengubah/menghapus ___file___ ataupun ___folder___ dari lokal repositori. Jangan khawatir semua jenis file dapat anda tambahkan ke repositori di GITHUB. Tentukan beberapa _file_ yang anda ingin tambahkan ke _repository_ anda atau bisa menggunakan contoh _file_ yang kita buat bersama !
+Sekarang kita dapat menambahkan/mengubah/menghapus ___file___ ataupun ___folder___ dari lokal repositori. Jangan khawatir semua jenis file dapat anda tambahkan ke repositori di GitHub. Tentukan beberapa _file_ yang anda ingin tambahkan ke _repository_ anda atau bisa menggunakan contoh _file_ yang kita buat bersama !
 
 ### Perintah & Alur Direktori GIT
 
@@ -154,37 +154,37 @@ Ada banyak perintah yang dapat anda lakukan, tetapi kita akan belajar beberapa p
 
 #### Perintah
 
-Untuk melakukan singkronisasi perubahan ada beberapa perintah yang dapat anda gunakan sebagai berikut:
+* Untuk melakukan singkronisasi perubahan ada beberapa perintah yang anda harus ketahui sebagai berikut:
 
-+ __git fetch__
+  + __git fetch__
 
-Unduh semua riwayat dari _remote tracking branchs_ 
+  Unduh semua riwayat dari _remote tracking branchs_ 
 
-+ __git Merge__
+  + __git Merge__
 
-Menggabungkan _remote tracking branchs_  ke _branch_ lokal saat ini
+  Menggabungkan _remote tracking branchs_  ke _branch_ lokal saat ini
 
-+ __git push__
+  + __git push__
 
-Unggah semua _commit branch_ lokal ke GitHub
+  Unggah semua _commit branch_ lokal ke GitHub
 
-+ __git pull__
+  + __git pull__
 
-Memperbarui _branch_ tempat kerja lokal Anda saat ini dengan yang baru. Melakukan dari _remote tracking branchs_ yang sesuai di GitHub. (__git pull__ adalah kombinasi dari git fetch dan git merge)
+  Memperbarui _branch_ tempat kerja lokal Anda saat ini dengan yang baru. Melakukan dari _remote tracking branchs_ yang sesuai di GitHub. (__git pull__ adalah kombinasi dari git fetch dan git merge)
 
-Untuk melakukan perubahan ada beberapa perintah yang dapat anda gunakan sebagai berikut:
+* Untuk melakukan perubahan ada beberapa perintah yang harus anda ketahui sebagai berikut:
 
-+ __git show [commit]__
+  + __git show [commit]__
 
-Metadata keluaran dan perubahan konten dari _commit_ yang ditentukan.
+  Metadata keluaran dan perubahan konten dari _commit_ yang ditentukan.
 
-+ __git add [file]__
+  + __git add [file]__
 
-Snapshots file dalam persiapan untuk versi.
+  Snapshots file dalam persiapan untuk versi.
 
-+ __git commit -m "[pesan deskriptif]"__
+  + __git commit -m "[pesan deskriptif]"__
 
-Merekam snapshot file secara permanen dalam riwayat versi.
+  Merekam snapshot file secara permanen dalam riwayat versi.
 
 #### Alur Direktori GIT
 
@@ -193,8 +193,69 @@ Merekam snapshot file secara permanen dalam riwayat versi.
    2.Anda menyiapkan berkasnya, menambah snapshot darinya ke _staging area_ Anda.
    3.Anda melakukan _commit_, yang mengambil berkas-berkas yang ada pada _staging area_ dan menyimpan _snapshot_ tersebut secara tetap ke dalam direktori Git Anda.
     <img src="https://git-scm.com/book/en/v2/images/areas.png" width="500" title="areas">
-    
-    
+
+### Buat File Latihan
+
+1. Buat sebuah _file_ bernama __index.html__, letakkan _file_ tersebut. Pada folder __First-Repository__ yang sudah anda clone dari GitHub sebelumnya. Tambahkan dengan kode html berikut:
+
+```html
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Latihan GitHub</title>
+  </head>
+  <body>
+      <header>
+          Selamat datang di DevNotes
+      </header>
+      <section class="content">
+          Belajar GIT & GitHub
+      </section>
+      <Footer>
+          Terima Kasih
+      </Footer>
+  </body>
+  </html>
+``` 
+Selanjutnya pastikan file sudah diletakkan pada folder __First-Repository__.
+<img src="images/locate_index_html.JPG" width="350" title="areas">
+
+2. Buka __Command Prompt (CMD)__ anda, pindah folder ke __first-repository__ dengan perintah sebagai berikut:
+
+```cmd
+  cd Documents\First-Repository
+```
+
+selanjutnya, setting email dan nama pengguna secara global dengan perintah sebagai berikut:
+
+```
+  git config --global user.email you@email.com
+  git config --global user.name ari
+```
+
+3. Setelah anda berpindah folder dan set email dan nama, lakukan perintah untuk memindahkan file tersebut ke _staging area_ dengan perintah sebagai berikut:
+
+```
+  git add index.html
+```
+
+`Penting: Anda juga dapat melakukan perintah git add untuk ke semua file/folder yang ditambahkan pada repositori tersebut. Dengan perintah git add . (dot) yang artinya anda menambahkan semua file/folder baru ke staging area. `
+
+4. Kemudian lakukan commit untuk melakukan kompres data menjadi SHA agar dapat di ungguh ke repositori GitHub anda. Dengan perintah sebagai berikut:
+
+```
+  git commit -m "Add Index"
+```
+
+5. __Pada saat pertama kali anda melakukan commit akan diminta untuk memasukkan username dan password GitHub anda__. Lakukan unggah ke repositori GitHub anda dengan perintah sebagai berikut:
+
+```
+  git push -u origin master
+```
+
 ## Daftar Kata-kata
 * __Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
 * __GitHub__        : _Platform_ untuk hosting dan berkolaborasi pada repositori GIT.
