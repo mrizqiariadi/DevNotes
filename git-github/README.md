@@ -62,8 +62,9 @@ Sejak kelahirannya pada 2005, Git telah berevolusi dan berkembang untuk dapat di
 
     <img src="images/first_repository.JPG" width="800" title="Button +">
     
-    [x] Selamat anda berhasil membuat repository baru
-    
+   - [x] Selamat anda telah berhasil membuat _repository_ baru
+
+
 ## DevNotes _Clone Repository_ dari GITHUB
 
 1. Klik tombol → __Clone or download__ → memilih tombol copy URL / blok link URL (Copy)
@@ -73,6 +74,7 @@ Sejak kelahirannya pada 2005, Git telah berevolusi dan berkembang untuk dapat di
     <img src="images/copy_link_repository.JPG" width="300" title="Button Copy Link URL">
     
 2. Buka Command Prompt(CMD) anda, sebelum kita melakukan *clone repository* pastikan anda melihat *folder/directory* __Documents__ dengan menggunakan perintah __dir__ untuk menampilkan isi dari *folder* C:\Users\~username_anda.`Apabila anda sudah memahami perintah Command Prompt (CMD) silahkan letakkan pada folder/directory yang anda diinginkan.`
+
     ```diff
     Microsoft Windows [Version 6.3.9600]
     (c) 2013 Microsoft Corporation. All rights reserved.
@@ -107,15 +109,24 @@ Sejak kelahirannya pada 2005, Git telah berevolusi dan berkembang untuk dapat di
                   17 Dir(s)  29,433,196,544 bytes free
     ```
 
-3. Menggunakan perintah __CD__ untuk dapat masuk ke *folder/directory* __document__.
+3. Menggunakan perintah __CD__ untuk dapat masuk ke *folder/directory* __Documents__.
 
     ```
     C:\Users\mhmmdrizqi>cd Documents
     C:\Users\mhmmdrizqi\Documents>
     ```
 
-4. Selanjutnya, lakukan _clone_ dengan perintah sebagai berikut:
+4. Selanjutnya, lakukan _clone_ dengan perintah __git clone YOUR-URL-REPOSITORY__ sebagai berikut:
 
+    ```diff
+    C:\Users\mhmmdrizqi\Documents>git clone https://github.com/<username>/First-Repository.git
     ```
-    C:\Users\mhmmdrizqi\Documents>git clone https://github.com/mrizqiariadi/First-Repository.git
-    ```
+5. Tunggu sampai proses download _repository_ selesai seperti ini:
+
+     <img src="images/clone_cmd_github.JPG" width="500" title="Clone CMD">
+     
+6. Selamat anda sudah berhasil melakukan clone dari GITHUB ke lokal komputer.
+
+     <img src="images/folder_first_repository.JPG" width="500" title="Result Clone">
+     
+   - [x] Selamat anda telah berhasil melakukan _clone repository_
