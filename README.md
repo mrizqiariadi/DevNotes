@@ -1,6 +1,8 @@
-# Project Title
+# GIT & GITHUB FAST TRACK
 
-One Paragraph of project description goes here
+Author: Muhammad Rizqi Ariadi
+Linkedin: Muhammad Rizqi Ariadi
+Facebook: M Rizqi Ariadi
 
 ## Getting Started
 
