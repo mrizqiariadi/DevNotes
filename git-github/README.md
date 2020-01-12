@@ -87,7 +87,7 @@ Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat me
 
 `Apabila anda sudah memahami perintah Command Prompt (CMD) silahkan letakkan pada folder/directory yang anda diinginkan.`
 
-    ```diff
+    ```
     Microsoft Windows [Version 6.3.9600]
     (c) 2013 Microsoft Corporation. All rights reserved.
 
@@ -108,7 +108,7 @@ Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat me
     07/13/2019  04:56 AM    <DIR>          Cisco Packet Tracer 7.2.1
     03/17/2019  04:03 PM    <DIR>          Contacts
     01/06/2020  10:18 PM    <DIR>          Desktop
-    +01/12/2020  08:01 AM    <DIR>          Documents
+    01/12/2020  08:01 AM    <DIR>          Documents
     01/12/2020  07:04 AM    <DIR>          Downloads
     03/17/2019  04:03 PM    <DIR>          Favorites
     03/17/2019  04:03 PM    <DIR>          Links
