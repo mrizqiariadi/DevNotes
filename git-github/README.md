@@ -155,32 +155,31 @@ Ada banyak perintah yang dapat anda lakukan, tetapi kita akan belajar beberapa p
 
 #### Perintah
 Untuk melakukan singkronisasi perubahan ada beberapa perintah yang dapat anda gunakan sebagai berikut:
-+__git fetch__
++ __git fetch__
 Unduh semua riwayat dari _remote tracking branchs_ 
 
-+__git Merge__
++ __git Merge__
 Menggabungkan _remote tracking branchs_  ke _branch_ lokal saat ini
 
-+__git push__
++ __git push__
 Unggah semua _commit branch_ lokal ke GitHub
 
-+__git pull__
++ __git pull__
 Memperbarui _branch_ tempat kerja lokal Anda saat ini dengan yang baru. Melakukan dari _remote tracking branchs_ yang sesuai di GitHub. (__git pull__ adalah kombinasi dari git fetch dan git merge)
 
-
 Untuk melakukan perubahan ada beberapa perintah yang dapat anda gunakan sebagai berikut:
-  +__git show [commit]__
-  Metadata keluaran dan perubahan konten dari _commit_ yang ditentukan.
++ __git show [commit]__
+Metadata keluaran dan perubahan konten dari _commit_ yang ditentukan.
 
-  +__git add [file]__
-  Snapshots file dalam persiapan untuk versi.
++ __git add [file]__
+Snapshots file dalam persiapan untuk versi.
 
-  +__git commit -m "[pesan deskriptif]"__
-  Merekam snapshot file secara permanen dalam riwayat versi.
++ __git commit -m "[pesan deskriptif]"__
+Merekam snapshot file secara permanen dalam riwayat versi.
 
 #### Alur Direktori GIT
 
-+Alur kerja dasar Git adalah seperti berikut:
+* Alur kerja dasar Git adalah seperti berikut:
     1. Anda mengubah berkas dalam _working directory_ Anda.
     2. Anda menyiapkan berkasnya, menambah snapshot darinya ke _staging area_ Anda.
     3. Anda melakukan _commit_, yang mengambil berkas-berkas yang ada pada _staging area_ dan menyimpan _snapshot_ tersebut secara tetap ke dalam direktori Git Anda.
@@ -188,10 +187,10 @@ Untuk melakukan perubahan ada beberapa perintah yang dapat anda gunakan sebagai 
     
     
 ## Daftar Kata-kata
-__Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
-__GitHub__        : _Platform_ untuk hosting dan berkolaborasi pada repositori GIT.
-__Commit__        : Objek GIT, Snapshot dari seluruh repositori anda yang dikompres menjadi SHA.
-__Branch__        : Pointer yang dapat bergerak menuju ke _Commit_.
-__Clone__         : Versi lokal dari repositori, termasuk semua _Commit_ dan _Branch_.
-__Fork__          : Salinan repositori di GitHub yang dimiliki oleh pengguna lain.
-__Pull Request__  : Tempat untuk membandingkan dan mendiskusikan perbedaan pada sebuah _branch_ dengan ulasan, komentar, terintegrasi tes dan lainnya.
+* __Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
+* __GitHub__        : _Platform_ untuk hosting dan berkolaborasi pada repositori GIT.
+* __Commit__        : Objek GIT, Snapshot dari seluruh repositori anda yang dikompres menjadi SHA.
+* __Branch__        : Pointer yang dapat bergerak menuju ke _Commit_.
+* __Clone__         : Versi lokal dari repositori, termasuk semua _Commit_ dan _Branch_.
+* __Fork__          : Salinan repositori di GitHub yang dimiliki oleh pengguna lain.
+* __Pull Request__  : Tempat untuk membandingkan dan mendiskusikan perbedaan pada sebuah _branch_ dengan ulasan, komentar, terintegrasi tes dan lainnya.
