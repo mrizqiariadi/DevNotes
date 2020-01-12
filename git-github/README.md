@@ -221,7 +221,8 @@ Ada banyak perintah yang dapat anda lakukan, tetapi kita akan belajar beberapa p
   </html>
 ``` 
 Selanjutnya pastikan file sudah diletakkan pada folder __First-Repository__.
-<img src="images/locate_index_html.JPG" width="350" title="areas">
+
+<img src="images/locate_index_html.JPG" width="350" title="locate index file">
 
 2. Buka __Command Prompt (CMD)__ anda, pindah folder ke __first-repository__ dengan perintah sebagai berikut:
 
@@ -255,6 +256,13 @@ selanjutnya, setting email dan nama pengguna secara global dengan perintah sebag
 ```
   git push -u origin master
 ```
+
+Lakukan check pada repositori First-Repository di GitHub anda.
+<img src="images/first_push.JPG" width="800" title="First Push">
+
+`Penting: Pada saat anda melakukan kolaborasi develop apps bersama teman/rekan anda, pastikan untuk selalu memeriksa perubahan yang dilakukan teman/rekan anda dengan menggunakan perintah git pull atau dapat melihat log dengan perintah git log.`
+
+- [x] Selamat anda telah berhasil melakukan _clone repository_ :+1:
 
 ## Daftar Kata-kata
 * __Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
