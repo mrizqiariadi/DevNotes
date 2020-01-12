@@ -262,7 +262,7 @@ Lakukan check pada repositori First-Repository di GitHub anda.
 
 `Penting: Pada saat anda melakukan kolaborasi develop apps bersama teman/rekan anda, pastikan untuk selalu memeriksa perubahan yang dilakukan teman/rekan anda dengan menggunakan perintah git pull atau dapat melihat log dengan perintah git log.`
 
-- [x] Selamat anda telah berhasil melakukan _clone repository_ :+1:
+- [x] Selamat anda telah berhasil melakukan _push_ pertama :+1:
 
 ## Daftar Kata-kata
 * __Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
