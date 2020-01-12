@@ -10,12 +10,12 @@ Twitter : [M Rizqi Ariadi](https://twitter.com/MRizqiAriadi)
 ## Daftar ISI
 
 1. GIT & GITHUB
- * Tujuan
- * Kelebihan
- * Membuat Repository GITHUB
- * Menggunakan GIT pada windows
- * Menggunakan GIT pada Linux
- * Menggunakan GITHUB DEKSTOP
+    * Tujuan
+    * Kelebihan
+    * Membuat Repository GITHUB
+    * Menggunakan GIT pada windows
+    * Menggunakan GIT pada Linux
+    * Menggunakan GITHUB DEKSTOP
 
 2. BASH SCRIPTING (COMING SOON)
 
