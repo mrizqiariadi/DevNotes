@@ -11,12 +11,23 @@ Twitter : [M Rizqi Ariadi](https://twitter.com/MRizqiAriadi)
 
 1. GIT & GITHUB
     * Tujuan
-    * Kelebihan
-    * Sejarah
-    * Membuat Repository GITHUB
+    * Tools yang dibutuhkan
+    * Teori Version Control
+      * System Version Control Tersebar 
+    * Sejarah GIT
+    * Join GitHub
+    * Buat _Repository_ Dari GitHub
+    * Buat _Clone Repository_ Dari GitHub
+    * Menambah _File_ Ke _Repository_ GitHub
+      * Perintah & Alur Direktori Git
+        * Perintah
+        * Alur Direktori Git
+      * Buat File Latihan
+    * Mengubah _File_ pada GitHub
     * Menggunakan GIT pada windows
     * Menggunakan GIT pada Linux
     * Menggunakan GITHUB DEKSTOP
+    * Daftar Kata-Kata
 
 2. BASH SCRIPTING (COMING SOON)
 
