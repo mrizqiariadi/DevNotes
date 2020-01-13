@@ -12,7 +12,7 @@ Twitter : [M Rizqi Ariadi](https://twitter.com/MRizqiAriadi)
 
 Pada DevNotes kali ini, Anda akan mempelajari bagaimana cara membuat Repository pada GitHub dan bagaimana menggunakan git dalam _development apps_. Hasil dari DevNotes kali ini akan seperti ini:
 
-## Tools yang dibutuhkan
+## Tools Yang Dibutuhkan
 
 * [GitHub Dekstop](https://desktop.github.com/) - GitHub Dekstop for Windows/Mac
 
@@ -48,11 +48,11 @@ Sejak kelahirannya pada 2005, Git telah berevolusi dan berkembang untuk dapat di
 + [Referensi](https://git-scm.com/book/id/v2/Memulai-Sejarah-Singkat-Git) - Baca Sejarah GIT Selengkapnya
 
 ## Join GitHub
-+ Membuka halaman [Join GitHub](https://github.com/join) → melakukan pendaftaran akun github → melakukan konfirmasi pada email anda.
++ Membuka halaman [Join GitHub](https://github.com/join) → melakukan pendaftaran akun GitHub → melakukan konfirmasi pada email anda.
 
   <img src="images/register_github.JPG" width="500" title="Join GitHub">
 
-## DevNotes Buat Repositori dari GitHub
+## DevNotes Buat _Repository_ dari GitHub
 
 1. Klik tombol → Tambah (__+__) → Memilih menu __new repository__.
 
@@ -75,7 +75,7 @@ Sejak kelahirannya pada 2005, Git telah berevolusi dan berkembang untuk dapat di
 
 ## DevNotes _Clone Repository_ dari GitHub
 
-Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat mengambil repositori tersebut dengan melakukan _clone_ dari github ke lokal komputer anda dengan cara sebagai berikut:
+Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat mengambil repositori tersebut dengan melakukan _clone_ dari GitHub ke lokal komputer anda dengan cara sebagai berikut:
 
 1. Klik tombol __Clone or download__ → memilih tombol __copy URL__ / __blok link URL__(Copy).
 
@@ -136,7 +136,7 @@ Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat me
 
      <img src="images/clone_cmd_github.JPG" width="500" title="Clone CMD">
      
-6. Selamat anda sudah berhasil melakukan clone dari GITHUB ke lokal komputer.
+6. Selamat anda sudah berhasil melakukan _clone_ dari GitHub ke lokal komputer.
 
      <img src="images/folder_first_repository.JPG" width="500" title="Result Clone">
      
@@ -160,7 +160,7 @@ Ada banyak perintah yang dapat anda lakukan, tetapi kita akan belajar beberapa p
 
   Unduh semua riwayat dari _remote tracking branchs_ 
 
-  + __git Merge__
+  + __git merge__
 
   Menggabungkan _remote tracking branchs_  ke _branch_ lokal saat ini
 
@@ -262,11 +262,11 @@ Lakukan check pada repositori First-Repository di GitHub anda.
 
 - [x] Selamat anda telah berhasil melakukan _push_ pertama :+1:
 
-## Mengubah file pada GitHub
+## Mengubah _File_ pada GitHub
 
 Untuk mengubah kode anda pada saat terjadi kesalahan atau ingin menambah kode dalam pengembangan apps. kita dapat lakukan cara yang sama seperti sebelumnya.
 
-1. Kembali buka project / kode anda. kita akan mengubah file index.html sebagai berikut: 
+1. Kembali buka _project_ / kode anda. kita akan mengubah _file_ index.html sebagai berikut: 
 
      ```html
       <!DOCTYPE html>
@@ -291,7 +291,7 @@ Untuk mengubah kode anda pada saat terjadi kesalahan atau ingin menambah kode da
       </html>
     ```
 
-2. Membuka __Command Prompt (CMD)__ anda. Pindah folder ke Documents\First-Repository menggunakan perintah CD sebagai berikut:
+2. Membuka __Command Prompt (CMD)__ anda. Pindah folder ke Documents\First-Repository menggunakan perintah __CD__ sebagai berikut:
 
     ```
       CD Documents\First-Repository
