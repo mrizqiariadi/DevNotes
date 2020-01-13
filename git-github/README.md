@@ -50,7 +50,7 @@ Sejak kelahirannya pada 2005, Git telah berevolusi dan berkembang untuk dapat di
 ## Join GitHub
 + Membuka halaman [Join GitHub](https://github.com/join) → melakukan pendaftaran akun github → melakukan konfirmasi pada email anda.
 
-  <img src="images/register_github.JPG" width="500" title="Join Github">
+  <img src="images/register_github.JPG" width="500" title="Join GitHub">
 
 ## DevNotes Buat Repositori dari GitHub
 
@@ -58,7 +58,7 @@ Sejak kelahirannya pada 2005, Git telah berevolusi dan berkembang untuk dapat di
 
     <img src="images/menu_create_github.JPG" width="350" title="Button +">
 
-2. Buat *repository* baru di Github dengan kriteria sebagai berikut:
+2. Buat *repository* baru di GitHub dengan kriteria sebagai berikut:
 
     | Perintah | Deskripsi |
     | --- | --- |
@@ -123,7 +123,7 @@ Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat me
 3. Menggunakan perintah __CD__ untuk dapat masuk ke *folder/directory* __Documents__.
 
     ```CMD
-    C:\Users\mhmmdrizqi>cd Documents
+    C:\Users\mhmmdrizqi>CD Documents
     C:\Users\mhmmdrizqi\Documents>
     ```
 
@@ -224,7 +224,7 @@ Selanjutnya pastikan file sudah diletakkan pada folder __First-Repository__.
 
 <img src="images/locate_index_html.JPG" width="350" title="locate index file">
 
-2. Buka __Command Prompt (CMD)__ anda, pindah folder ke __first-repository__ dengan perintah sebagai berikut:
+2. Buka __Command Prompt (CMD)__ anda, pindah folder ke __First-Repository__ dengan perintah sebagai berikut:
 
 ```cmd
   cd Documents\First-Repository
@@ -234,7 +234,7 @@ selanjutnya, setting email dan nama pengguna secara global dengan perintah sebag
 
 ```
   git config --global user.email you@email.com
-  git config --global user.name ari
+  git config --global user.name yourname
 ```
 
 3. Setelah anda berpindah folder dan set email dan nama, lakukan perintah untuk memindahkan file tersebut ke _staging area_ dengan perintah sebagai berikut:
