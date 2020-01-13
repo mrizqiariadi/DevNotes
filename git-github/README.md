@@ -226,7 +226,7 @@ Selanjutnya pastikan file sudah diletakkan pada folder __First-Repository__.
 
 2. Buka __Command Prompt (CMD)__ anda, pindah folder ke __First-Repository__ dengan perintah sebagai berikut:
 
-    ```cmd
+    ```
       cd Documents\First-Repository
     ```
 
