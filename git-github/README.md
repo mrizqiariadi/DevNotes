@@ -198,64 +198,64 @@ Ada banyak perintah yang dapat anda lakukan, tetapi kita akan belajar beberapa p
 
 1. Buat sebuah _file_ bernama __index.html__, letakkan _file_ tersebut. Pada folder __First-Repository__ yang sudah anda clone dari GitHub sebelumnya. Tambahkan dengan kode html berikut:
 
-```html
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>Latihan GitHub</title>
-  </head>
-  <body>
-      <header>
-          Selamat datang di DevNotes
-      </header>
-      <section class="content">
-          Belajar GIT & GitHub
-      </section>
-      <Footer>
-          Terima Kasih
-      </Footer>
-  </body>
-  </html>
-``` 
+    ```html
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <title>Latihan GitHub</title>
+      </head>
+      <body>
+          <header>
+              Selamat datang di DevNotes
+          </header>
+          <section class="content">
+              Belajar GIT & GitHub
+          </section>
+          <Footer>
+              Terima Kasih
+          </Footer>
+      </body>
+      </html>
+    ``` 
 Selanjutnya pastikan file sudah diletakkan pada folder __First-Repository__.
 
 <img src="images/locate_index_html.JPG" width="350" title="locate index file">
 
 2. Buka __Command Prompt (CMD)__ anda, pindah folder ke __First-Repository__ dengan perintah sebagai berikut:
 
-```cmd
-  cd Documents\First-Repository
-```
+    ```cmd
+      cd Documents\First-Repository
+    ```
 
 selanjutnya, setting email dan nama pengguna secara global dengan perintah sebagai berikut:
 
-```
-  git config --global user.email you@email.com
-  git config --global user.name yourname
-```
+    ```
+      git config --global user.email you@email.com
+      git config --global user.name yourname
+    ```
 
 3. Setelah anda berpindah folder dan set email dan nama, lakukan perintah untuk memindahkan file tersebut ke _staging area_ dengan perintah sebagai berikut:
 
-```
-  git add index.html
-```
+    ```
+      git add index.html
+    ```
 
 `Penting: Anda juga dapat melakukan perintah git add untuk ke semua file/folder yang ditambahkan pada repositori tersebut. Dengan perintah git add . (dot) yang artinya anda menambahkan semua file/folder baru ke staging area. `
 
 4. Kemudian lakukan commit untuk melakukan kompres data menjadi SHA agar dapat di ungguh ke repositori GitHub anda. Dengan perintah sebagai berikut:
 
-```
-  git commit -m "Add Index"
-```
+    ```
+      git commit -m "Add Index"
+    ```
 
 5. __Pada saat pertama kali anda melakukan commit akan diminta untuk memasukkan username dan password GitHub anda__. Lakukan unggah ke repositori GitHub anda dengan perintah sebagai berikut:
 
-```
-  git push -u origin master
-```
+    ```
+      git push -u origin master
+    ```
 
 Lakukan check pada repositori First-Repository di GitHub anda.
 <img src="images/first_push.JPG" width="800" title="First Push">
@@ -270,66 +270,66 @@ Untuk mengubah kode anda pada saat terjadi kesalahan atau ingin menambah kode da
 
 1. Kembali buka project / kode anda. kita akan mengubah file index.html sebagai berikut: 
 
-   ```html
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Latihan GitHub</title>
-    </head>
-    <body>
-        <header>
-            Selamat datang di DevNotes
-        </header>
-        <section class="content">
-          <p>Merubah isi file github</p>
-        </section>
-        <Footer>
-            Terima Kasih
-        </Footer>
-    </body>
-    </html>
-  ```
-  
+     ```html
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <title>Latihan GitHub</title>
+      </head>
+      <body>
+          <header>
+              Selamat datang di DevNotes
+          </header>
+          <section class="content">
+            <p>Merubah isi file github</p>
+          </section>
+          <Footer>
+              Terima Kasih
+          </Footer>
+      </body>
+      </html>
+    ```
+
 2. Membuka __Command Prompt (CMD)__ anda. Pindah folder ke Documents\First-Repository menggunakan perintah CD sebagai berikut:
 
-  ```CMD
-    CD Documents\First-Repository
-  ```
+    ```
+      CD Documents\First-Repository
+    ```
   
 3. Kemudian, tambahkan perubahan anda ke _staging area_ dengan perintah sebagai berikut:
   
-  ```CMD
-    git add .
-  ```
+    ```CMD
+      git add .
+    ```
   
-  `Catatan: . / dot artinya anda menambahkan semua perubahan ke staging area`
+    `Catatan: . / dot artinya anda menambahkan semua perubahan ke staging area`
 
 4. Setalah menambahkan ke _staging area_. Lakukan commit dengan perintah sebagai berikut:
 
-  ```CMD
-    git commit -m "Update Index"
-  ```
+    ```CMD
+      git commit -m "Update Index"
+    ```
   
 5. Langkah terakhir anda dapat melakukan _push_ ke repositori Github anda, dengan perintah sebagai berikut:
   
-  ```CMD
-    git push -u origin master
-  ```
+    ```CMD
+      git push -u origin master
+    ```
   
 6. Lakukan check log untuk melihat commit yang telah anda lakukan melalui _Command Prompt (CMD)_. kita dapat menggunakan perintah sebagai berikut:
 
-  ```
-  git log
-  ```
+    ```
+    git log
+    ```
  
-  Lakukan check pada repositori anda di GitHub pada file Index.html untuk melihat perubahan tersebut.
+   Lakukan check pada repositori anda di GitHub pada file Index.html untuk melihat perubahan tersebut.
 
-  <img src="images/first_change.JPG" width="800" title="First Change">
+   <img src="images/first_change.JPG" width="800" title="First Change">
 
-  - [x] Selamat anda telah berhasil melakukan perubahan kode :+1:
+   - [x] Selamat anda telah berhasil melakukan perubahan kode :+1:
 
 
 ## Daftar Kata-kata
