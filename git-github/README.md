@@ -264,6 +264,74 @@ Lakukan check pada repositori First-Repository di GitHub anda.
 
 - [x] Selamat anda telah berhasil melakukan _push_ pertama :+1:
 
+## Mengubah file pada GitHub
+
+Untuk mengubah kode anda pada saat terjadi kesalahan atau ingin menambah kode dalam pengembangan apps. kita dapat lakukan cara yang sama seperti sebelumnya.
+
+1. Kembali buka project / kode anda. kita akan mengubah file index.html sebagai berikut: 
+
+   ```html
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Latihan GitHub</title>
+    </head>
+    <body>
+        <header>
+            Selamat datang di DevNotes
+        </header>
+        <section class="content">
+          <p>Merubah isi file github</p>
+        </section>
+        <Footer>
+            Terima Kasih
+        </Footer>
+    </body>
+    </html>
+  ```
+  
+2. Membuka __Command Prompt (CMD)__ anda. Pindah folder ke Documents\First-Repository menggunakan perintah CD sebagai berikut:
+
+  ```CMD
+    CD Documents\First-Repository
+  ```
+  
+3. Kemudian, tambahkan perubahan anda ke _staging area_ dengan perintah sebagai berikut:
+  
+  ```CMD
+    git add .
+  ```
+  
+  `Catatan: . / dot artinya anda menambahkan semua perubahan ke staging area`
+
+4. Setalah menambahkan ke _staging area_. Lakukan commit dengan perintah sebagai berikut:
+
+  ```CMD
+    git commit -m "Update Index"
+  ```
+  
+5. Langkah terakhir anda dapat melakukan _push_ ke repositori Github anda, dengan perintah sebagai berikut:
+  
+  ```CMD
+    git push -u origin master
+  ```
+  
+6. Lakukan check log untuk melihat commit yang telah anda lakukan melalui _Command Prompt (CMD)_. kita dapat menggunakan perintah sebagai berikut:
+
+  ```
+  git log
+  ```
+ 
+  Lakukan check pada repositori anda di GitHub pada file Index.html untuk melihat perubahan tersebut.
+
+  <img src="images/first_change.JPG" width="800" title="First Change">
+
+  - [x] Selamat anda telah berhasil melakukan perubahan kode :+1:
+
+
 ## Daftar Kata-kata
 * __Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
 * __GitHub__        : _Platform_ untuk hosting dan berkolaborasi pada repositori GIT.
