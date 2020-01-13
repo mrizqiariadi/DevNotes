@@ -231,12 +231,10 @@ Selanjutnya pastikan file sudah diletakkan pada folder __First-Repository__.
     ```
 
 selanjutnya, setting email dan nama pengguna secara global dengan perintah sebagai berikut:
-
-    ```
+   
       git config --global user.email you@email.com
-      git config --global user.name yourname
-    ```
-
+      git config --global user.name yourname 
+    
 3. Setelah anda berpindah folder dan set email dan nama, lakukan perintah untuk memindahkan file tersebut ke _staging area_ dengan perintah sebagai berikut:
 
     ```
