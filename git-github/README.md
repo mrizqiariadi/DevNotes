@@ -329,7 +329,78 @@ Untuk mengubah kode anda pada saat terjadi kesalahan atau ingin menambah kode da
 
    - [x] Selamat anda telah berhasil melakukan perubahan kode :+1:
 
+## Membatalkan Perubahan GIT
+Dalam melakukan _Developing Apps_ akan memungkinkan anda melakukan kesalahan atau revisi kode. Untuk dapat dikembalikan ke sebelumnya, fitur git ini cara kerjanya mirip seperti mesin waktu doraemon.
+ <img src="https://vignette.wikia.nocookie.net/doraemon/images/e/e6/Mesin_Waktu_535.jpg/revision/latest?cb=20190812051525&path-prefix=id" width="600" title="Mesin Waktu Doraemon">
+ 
+### Membatalkan Perubahan File yang Sudah dalam Kondisi staged
 
+Pada saat anda sudah melakukan perintah __Git Add__ artinya perubahan _file_ / kode anda telah berada di _staging area_. Tapi dalam kasus ini anda belum melakukan __Commit__.
+
+1. Lakukan perubahan pada _Project_ / kode anda, tambahkan beberapa kode sebagai berikut:
+
+    ```html
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <meta http-equiv="X-UA-Compatible" content="ie=edge">
+              <title>Latihan GitHub</title>
+          </head>
+          <body>
+              <header>
+                  Selamat datang di DevNotes
+                </br>
+                  Lagi Belajar GIT & GitHub Nih !
+                </br>
+              </header>
+              <section class="content">
+                <p>Merubah isi file github</p>
+              </section>
+              <Footer>
+                  Terima Kasih
+              </Footer>
+          </body>
+          </html>
+    ```
+
+    Kemudian, lakukan __git add__ melalui __Command Prompt (CMD)__ anda, sebagai berikut:
+  
+    ```
+    C:\Users\<yourusername>CD Documents\First-Repository
+    C:\Users\<yourusername>git add .
+    ```
+    
+    Periksa _staging area_ dengan perintah __git status__. Perhatikan, apakah terdapat _file_ yang sudah berada di _staging area_?.
+    Anda dapat menggunakan perintah sebagai berikut:
+    
+    ```
+    git status
+    ```
+    Maka hasil status yang akan ditampilkan sebagai berikut:
+     <img src="images/staging_area.JPG" width="500" title="Staging Area">
+     
+2. Kita dapat mengubah statusnya menjadi kondisi _modified_, lakukan perintah seperti berikut:
+   
+   ```
+    git reset index.html
+    ```
+   
+   Kemudian, periksa kembali status file setelah anda lakukan __git reset__, maka hasilnya sebagai berikut:
+   <img src="images/git_status_reset.JPG" width="500" title="Staging Area">
+   
+3. Selanjutnya anda dapat membatalkan perubahan yang sudah dilakukan sebelumnya. dengan menggunakan perintah sebagai berikut:
+
+  ```
+  git checkout index.html
+  ```
+  
+  Lakukan check pada _project_ / kode anda, maka hasilnya akan kembali seperti sebelumnya. Hasilnya sebagai berikut:
+  <img src="images/result_git_checkout_staged.JPG" width="500" title="Staging Area">
+  
+  - [x] Selamat anda telah berhasil melakukan pengembalian perubahan :+1:
+  
 ## Daftar Kata-kata
 * __Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
 * __GitHub__        : _Platform_ untuk hosting dan berkolaborasi pada repositori GIT.
