@@ -24,6 +24,7 @@ Twitter : [M Rizqi Ariadi](https://twitter.com/MRizqiAriadi)
         * Alur Direktori Git
       * Buat File Latihan
     * Mengubah _File_ pada GitHub
+    * Membatalkan Perubahan GIT
     * Menggunakan GIT pada windows
     * Menggunakan GIT pada Linux
     * Menggunakan GITHUB DEKSTOP
