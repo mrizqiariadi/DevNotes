@@ -54,7 +54,7 @@ Sejak kelahirannya pada 2005, Git telah berevolusi dan berkembang untuk dapat di
 
 ## DevNotes Buat _Repository_ dari GitHub
 
-1. Klik tombol → Tambah (__+__) → Memilih menu __new repository__.
+1. Klik tombol Tambah (__+__) → Memilih menu __new repository__.
 
     <img src="images/menu_create_github.JPG" width="350" title="Button +">
 
