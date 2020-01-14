@@ -330,7 +330,9 @@ Untuk mengubah kode anda pada saat terjadi kesalahan atau ingin menambah kode da
    - [x] Selamat anda telah berhasil melakukan perubahan kode :+1:
 
 ## Membatalkan Perubahan GIT
+
 Dalam melakukan _Developing Apps_ akan memungkinkan anda melakukan kesalahan atau revisi kode. Untuk dapat dikembalikan ke sebelumnya, fitur git ini cara kerjanya mirip seperti mesin waktu doraemon.
+
  <img src="https://vignette.wikia.nocookie.net/doraemon/images/e/e6/Mesin_Waktu_535.jpg/revision/latest?cb=20190812051525&path-prefix=id" width="600" title="Mesin Waktu Doraemon">
  
 ### Membatalkan Perubahan File yang Sudah dalam Kondisi staged
