@@ -262,7 +262,7 @@ Lakukan check pada repositori First-Repository di GitHub anda.
 
 - [x] Selamat anda telah berhasil melakukan _push_ pertama :+1:
 
-## Mengubah _File_ pada GitHub
+## Mengubah _File / Folder_ pada GitHub
 
 Untuk mengubah kode anda pada saat terjadi kesalahan atau ingin menambah kode dalam _develop apps_. kita dapat lakukan cara yang sama seperti sebelumnya.
 
@@ -329,7 +329,7 @@ Untuk mengubah kode anda pada saat terjadi kesalahan atau ingin menambah kode da
 
    - [x] Selamat anda telah berhasil melakukan perubahan kode :+1:
 
-## Membatalkan Perubahan GIT
+## DevNotes Membatalkan Perubahan GIT
 
 Dalam melakukan _Developing Apps_ akan memungkinkan anda melakukan kesalahan atau revisi kode. Untuk dapat dikembalikan ke sebelumnya, fitur git ini cara kerjanya mirip seperti mesin waktu doraemon.
 
