@@ -392,14 +392,14 @@ Pada saat anda sudah melakukan perintah __Git Add__ artinya perubahan _file_ / k
    
 3. Selanjutnya anda dapat membatalkan perubahan yang sudah dilakukan sebelumnya. dengan menggunakan perintah sebagai berikut:
 
-  ```
-  git checkout index.html
-  ```
+    ```
+    git checkout index.html
+    ```
   
-  Lakukan check pada _project_ / kode anda, maka hasilnya akan kembali seperti sebelumnya. Hasilnya sebagai berikut:
-  <img src="images/result_git_checkout_staged.JPG" width="500" title="Staging Area">
-  
-  - [x] Selamat anda telah berhasil melakukan pengembalian perubahan :+1:
+    Lakukan check pada _project_ / kode anda, maka hasilnya akan kembali seperti sebelumnya. Hasilnya sebagai berikut:
+    <img src="images/result_git_checkout_staged.JPG" width="500" title="Staging Area">
+
+    - [x] Selamat anda telah berhasil melakukan pengembalian perubahan :+1:
   
 ## Daftar Kata-kata
 * __Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
