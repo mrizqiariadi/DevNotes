@@ -463,6 +463,12 @@ Selanjutnya, kita akan belajar untuk membatalkan perubahan yang sudah dilakukan 
 
     - [x] Selamat anda telah berhasil melakukan pengembalian perubahan dalam keadaan commit :+1:
 
+## DevNotes Membuat _Branch_ pada Git
+
+Sebelumnya kita sudah belajar menambah, merubah dan mengembalikan perubahan pada Git. tapi anda masih menggunakan _Default Branch_ atau _Branch_ utama pada saat pertama kali menggunakan Git dalam melakukan pengembangan aplikasi. Ketika anda melakukan pengembangan aplikasi bersama rekan-rekan dengan menggunakan _Master Branch_. Akan memungkinkan anda terjadi konflik dengan rekan-rekan yang lain karena mengubah _file_ yang sama di pada _Master Branch_.
+
+`Solusi: masing-masing rekan anda dalam satu tim membuat branch sendiri-sendiri dengan seperti itu tidak akan menggangu _Branch_ utama / master branch`
+
 ## Daftar Kata-kata
 * __Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
 * __GitHub__        : _Platform_ untuk hosting dan berkolaborasi pada repositori GIT.
