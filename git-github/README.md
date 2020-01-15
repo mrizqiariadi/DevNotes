@@ -545,7 +545,7 @@ Sebelumnya kita sudah belajar menambah, merubah dan mengembalikan perubahan pada
     
     Periksa _repository_ GitHub anda, maka hasilnya sebagai berikut:
     
-    <img src="images/branch_repository_github.JPG" width="800" title="Branch Repository GitHub">
+    <img src="images/branch_repository_github2.JPG" width="800" title="Branch Repository GitHub">
     
     - [x] Selamat anda telah berhasil membuat dan melakukan perubahan pada _Branch_ baru :+1:
 
