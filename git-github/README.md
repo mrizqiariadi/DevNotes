@@ -401,8 +401,68 @@ Pada saat anda sudah melakukan perintah __Git Add__ artinya perubahan _file_ / k
     Lakukan _check_ pada _project_ / kode anda, maka hasilnya akan kembali seperti sebelumnya. Hasilnya sebagai berikut:
     <img src="images/result_git_checkout_staged.JPG" width="500" title="Staging Area">
 
-    - [x] Selamat anda telah berhasil melakukan pengembalian perubahan :+1:
+    - [x] Selamat anda telah berhasil melakukan pengembalian perubahan dalam keadaan staged :+1:
+
+### Membatalkan Perubahan _File / Folder_ yang Sudah dalam Kondisi Commited
+
+Selanjutnya, kita akan belajar untuk membatalkan perubahan yang sudah dilakukan __commit__. pada saat anda merasa kode yang dilakukan __commit__ masih ada yang salah.
+
+1. Lakukan perubahan pada _Project_ / kode anda, tambahkan beberapa kode sebagai berikut:
+
+    ```html
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <meta http-equiv="X-UA-Compatible" content="ie=edge">
+              <title>Latihan GitHub</title>
+          </head>
+          <body>
+              <header>
+                Selamat datang di DevNotes
+                </br>
+                  Membatalkan Commit ini
+                </br>
+              </header>
+              <section class="content">
+                <p>Merubah isi file github</p>
+              </section>
+              <Footer>
+                  Terima Kasih
+              </Footer>
+          </body>
+          </html>
+    ```
+
+    Kemudian, lakukan __git add__ dan __git commit__ melalui __Command Prompt (CMD)__ anda, sebagai berikut:
   
+    ```
+    C:\Users\<yourusername>CD Documents\First-Repository
+    C:\Users\<yourusername>git add .
+    C:\Users\<yourusername>git commit -m "Update"
+    ```
+    
+2. Gunakan perintah __git log__ untuk dapat melihat _history commit_ yang telah dilakukan. perhatikan _log_ kedua yang diberi tanda sebagai berikut:
+
+    <img src="images/git_log_update.JPG" width="500" title="Git Log">
+    
+3. selanjutnya lakukan __checkout__ dengan 7 digit SHA / id commit anda. Untuk dapat kembali ke _commit_ yang sebelumnya, dengan perintah sebagai berikut:
+
+    ```
+      git checkout 8cafdb7 index.html
+    ```
+    
+    Pada saat ini file index.html yang anda kembalikan berada di _staging area_. untuk mengembalikan ke _working area_ anda gunakan perintah sebagai berikut:
+    
+    ```
+    git reset index.html
+    ```
+
+    `Penting: Untuk mengembalikan ke commit yang anda inginkan juga dapat menggunakan perintah tersebut, tetapi apabila anda mempunyai    banyak file yang dikembalikan gunakan : git checkout <SHA/ID> tanpa nama file`
+
+    - [x] Selamat anda telah berhasil melakukan pengembalian perubahan dalam keadaan commit :+1:
+
 ## Daftar Kata-kata
 * __Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
 * __GitHub__        : _Platform_ untuk hosting dan berkolaborasi pada repositori GIT.
