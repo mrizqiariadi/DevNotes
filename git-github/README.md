@@ -223,9 +223,9 @@ Ada banyak perintah yang dapat anda lakukan, tetapi kita akan belajar beberapa p
       </body>
       </html>
     ``` 
-Selanjutnya pastikan file sudah diletakkan pada folder __First-Repository__.
+   Selanjutnya pastikan file sudah diletakkan pada folder __First-Repository__.
 
-<img src="images/locate_index_html.JPG" width="350" title="locate index file">
+   <img src="images/locate_index_html.JPG" width="350" title="locate index file">
 
 2. Buka __Command Prompt (CMD)__ anda, pindah folder ke __First-Repository__ dengan perintah sebagai berikut:
 
@@ -233,7 +233,7 @@ Selanjutnya pastikan file sudah diletakkan pada folder __First-Repository__.
       cd Documents\First-Repository
     ```
 
-selanjutnya, setting email dan nama pengguna secara global dengan perintah sebagai berikut:
+   selanjutnya, setting email dan nama pengguna secara global dengan perintah sebagai berikut:
    
         git config --global user.email you@email.com
         git config --global user.name yourname 
@@ -245,7 +245,7 @@ selanjutnya, setting email dan nama pengguna secara global dengan perintah sebag
       git add index.html
     ```
 
-`Penting: Anda juga dapat melakukan perintah git add untuk ke semua file/folder yang ditambahkan pada repositori tersebut. Dengan perintah git add . (dot) yang artinya anda menambahkan semua file/folder baru ke staging area. `
+    `Penting: Anda juga dapat melakukan perintah git add untuk ke semua file/folder yang ditambahkan pada repositori tersebut. Dengan perintah git add . (dot) yang artinya anda menambahkan semua file/folder baru ke staging area. `
 
 4. Kemudian lakukan commit untuk melakukan kompres data menjadi SHA agar dapat di ungguh ke repositori GitHub anda. Dengan perintah sebagai berikut:
 
@@ -259,12 +259,12 @@ selanjutnya, setting email dan nama pengguna secara global dengan perintah sebag
       git push -u origin master
     ```
 
-Lakukan check pada repositori First-Repository di GitHub anda.
-<img src="images/first_push.JPG" width="800" title="First Push">
+   Lakukan check pada repositori First-Repository di GitHub anda.
+   <img src="images/first_push.JPG" width="800" title="First Push">
 
-`Penting: Pada saat anda melakukan kolaborasi develop apps bersama teman/rekan anda, pastikan untuk selalu memeriksa perubahan yang dilakukan teman/rekan anda dengan menggunakan perintah git pull atau dapat melihat log dengan perintah git log.`
+   `Penting: Pada saat anda melakukan kolaborasi develop apps bersama teman/rekan anda, pastikan untuk selalu memeriksa perubahan yang dilakukan teman/rekan anda dengan menggunakan perintah git pull atau dapat melihat log dengan perintah git log.`
 
-- [x] Selamat anda telah berhasil melakukan _push_ pertama :+1:
+   - [x] Selamat anda telah berhasil melakukan _push_ pertama :+1:
 
 ## Mengubah _File / Folder_ pada GitHub
 
