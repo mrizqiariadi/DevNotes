@@ -54,7 +54,7 @@ Sejak kelahirannya pada 2005, Git telah berevolusi dan berkembang untuk dapat di
 
 ## DevNotes Buat _Repository_ dari GitHub
 
-1. Klik tombol → Tambah (__+__) → Memilih menu __new repository__.
+1. Klik tombol Tambah (__+__) → Memilih menu __new repository__.
 
     <img src="images/menu_create_github.JPG" width="350" title="Button +">
 
@@ -83,7 +83,7 @@ Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat me
     
     <img src="images/copy_link_repository.JPG" width="300" title="Button Copy Link URL">
     
-2. Buka Command Prompt(CMD) anda, sebelum kita melakukan *clone repository* pastikan anda melihat *folder/directory* __Documents__ dengan menggunakan perintah __dir__ untuk menampilkan isi dari *folder* C:\Users\~username_anda.
+2. Buka __Command Prompt (CMD)__ anda, sebelum kita melakukan *clone repository* pastikan anda melihat *folder/directory* __Documents__ dengan menggunakan perintah __dir__ untuk menampilkan isi dari *folder* C:\Users\~username_anda.
 `Apabila anda sudah memahami perintah Command Prompt (CMD) silahkan letakkan pada folder/directory yang anda diinginkan.`
 
     ```CMD
@@ -132,7 +132,7 @@ Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat me
     ```CMD
     C:\Users\mhmmdrizqi\Documents>git clone https://github.com/<username>/First-Repository.git
     ```
-5. Tunggu sampai proses download _repository_ selesai seperti ini:
+5. Tunggu sampai proses _download repository_ selesai seperti ini:
 
      <img src="images/clone_cmd_github.JPG" width="500" title="Clone CMD">
      
@@ -148,7 +148,7 @@ Pada materi sebelumnya anda sudah belajar membuat repositori baru. Kita dapat me
 
 Sekarang kita dapat menambahkan/mengubah/menghapus ___file___ ataupun ___folder___ dari lokal repositori. Jangan khawatir semua jenis file dapat anda tambahkan ke repositori di GitHub. Tentukan beberapa _file_ yang anda ingin tambahkan ke _repository_ anda atau bisa menggunakan contoh _file_ yang kita buat bersama !
 
-### Perintah & Alur Direktori GIT
+### Perintah & Alur Kerja Dasar Git
 
 Ada banyak perintah yang dapat anda lakukan, tetapi kita akan belajar beberapa perintah yang sering digunakan saja. Kemudian alur direktori git hanya sebagai tambahan pemahaman saja, untuk mengetahui letak pada saat anda melakukan beberapa perintah tersebut.
 
@@ -186,12 +186,12 @@ Ada banyak perintah yang dapat anda lakukan, tetapi kita akan belajar beberapa p
 
   Merekam snapshot file secara permanen dalam riwayat versi.
 
-#### Alur Direktori GIT
+#### Alur Kerja Dasar Git
 
 * Alur kerja dasar Git adalah seperti berikut:
-   1.Anda mengubah berkas dalam _working directory_ Anda.
-   2.Anda menyiapkan berkasnya, menambah snapshot darinya ke _staging area_ Anda.
-   3.Anda melakukan _commit_, yang mengambil berkas-berkas yang ada pada _staging area_ dan menyimpan _snapshot_ tersebut secara tetap ke dalam direktori Git Anda.
+   1. Anda mengubah berkas dalam _working directory_ Anda.
+   2. Anda menyiapkan berkasnya, menambah snapshot darinya ke _staging area_ Anda.
+   3. Anda melakukan _commit_, yang mengambil berkas-berkas yang ada pada _staging area_ dan menyimpan _snapshot_ tersebut secara tetap ke dalam direktori Git Anda.
     <img src="https://git-scm.com/book/en/v2/images/areas.png" width="500" title="areas">
 
 ### Buat File Latihan
@@ -235,7 +235,7 @@ selanjutnya, setting email dan nama pengguna secara global dengan perintah sebag
       git config --global user.email you@email.com
       git config --global user.name yourname 
     
-3. Setelah anda berpindah folder dan set email dan nama, lakukan perintah untuk memindahkan file tersebut ke _staging area_ dengan perintah sebagai berikut:
+3. Setelah anda berpindah folder dan set email dan nama, lakukan perintah untuk memindahkan _file_ tersebut ke _staging area_ dengan perintah sebagai berikut:
 
     ```
       git add index.html
@@ -249,7 +249,7 @@ selanjutnya, setting email dan nama pengguna secara global dengan perintah sebag
       git commit -m "Add Index"
     ```
 
-5. __Pada saat pertama kali anda melakukan commit akan diminta untuk memasukkan username dan password GitHub anda__. Lakukan unggah ke repositori GitHub anda dengan perintah sebagai berikut:
+5. __Pada saat pertama kali anda melakukan commit akan diminta untuk memasukkan _username_ dan _password_ GitHub anda__. Lakukan unggah ke repositori GitHub anda dengan perintah sebagai berikut:
 
     ```
       git push -u origin master
@@ -262,9 +262,9 @@ Lakukan check pada repositori First-Repository di GitHub anda.
 
 - [x] Selamat anda telah berhasil melakukan _push_ pertama :+1:
 
-## Mengubah _File_ pada GitHub
+## Mengubah _File / Folder_ pada GitHub
 
-Untuk mengubah kode anda pada saat terjadi kesalahan atau ingin menambah kode dalam pengembangan apps. kita dapat lakukan cara yang sama seperti sebelumnya.
+Untuk mengubah kode anda pada saat terjadi kesalahan atau ingin menambah kode dalam _develop apps_. kita dapat lakukan cara yang sama seperti sebelumnya.
 
 1. Kembali buka _project_ / kode anda. kita akan mengubah _file_ index.html sebagai berikut: 
 
@@ -317,7 +317,7 @@ Untuk mengubah kode anda pada saat terjadi kesalahan atau ingin menambah kode da
       git push -u origin master
     ```
   
-6. Lakukan check log untuk melihat commit yang telah anda lakukan melalui _Command Prompt (CMD)_. kita dapat menggunakan perintah sebagai berikut:
+6. Lakukan check log untuk melihat commit yang telah anda lakukan melalui __Command Prompt (CMD)__. kita dapat menggunakan perintah sebagai berikut:
 
     ```
     git log
@@ -329,8 +329,10 @@ Untuk mengubah kode anda pada saat terjadi kesalahan atau ingin menambah kode da
 
    - [x] Selamat anda telah berhasil melakukan perubahan kode :+1:
 
-## Membatalkan Perubahan GIT
+## DevNotes Membatalkan Perubahan GIT
+
 Dalam melakukan _Developing Apps_ akan memungkinkan anda melakukan kesalahan atau revisi kode. Untuk dapat dikembalikan ke sebelumnya, fitur git ini cara kerjanya mirip seperti mesin waktu doraemon.
+
  <img src="https://vignette.wikia.nocookie.net/doraemon/images/e/e6/Mesin_Waktu_535.jpg/revision/latest?cb=20190812051525&path-prefix=id" width="600" title="Mesin Waktu Doraemon">
  
 ### Membatalkan Perubahan File yang Sudah dalam Kondisi staged
@@ -392,14 +394,14 @@ Pada saat anda sudah melakukan perintah __Git Add__ artinya perubahan _file_ / k
    
 3. Selanjutnya anda dapat membatalkan perubahan yang sudah dilakukan sebelumnya. dengan menggunakan perintah sebagai berikut:
 
-  ```
-  git checkout index.html
-  ```
+    ```
+    git checkout index.html
+    ```
   
-  Lakukan check pada _project_ / kode anda, maka hasilnya akan kembali seperti sebelumnya. Hasilnya sebagai berikut:
-  <img src="images/result_git_checkout_staged.JPG" width="500" title="Staging Area">
-  
-  - [x] Selamat anda telah berhasil melakukan pengembalian perubahan :+1:
+    Lakukan _check_ pada _project_ / kode anda, maka hasilnya akan kembali seperti sebelumnya. Hasilnya sebagai berikut:
+    <img src="images/result_git_checkout_staged.JPG" width="500" title="Staging Area">
+
+    - [x] Selamat anda telah berhasil melakukan pengembalian perubahan :+1:
   
 ## Daftar Kata-kata
 * __Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
