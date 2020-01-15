@@ -235,8 +235,9 @@ Selanjutnya pastikan file sudah diletakkan pada folder __First-Repository__.
 
 selanjutnya, setting email dan nama pengguna secara global dengan perintah sebagai berikut:
    
-      git config --global user.email you@email.com
-      git config --global user.name yourname 
+        git config --global user.email you@email.com
+        git config --global user.name yourname 
+   
     
 3. Setelah anda berpindah folder dan set email dan nama, lakukan perintah untuk memindahkan _file_ tersebut ke _staging area_ dengan perintah sebagai berikut:
 
@@ -336,7 +337,7 @@ Untuk mengubah kode anda pada saat terjadi kesalahan atau ingin menambah kode da
 
 Dalam melakukan _Developing Apps_ akan memungkinkan anda melakukan kesalahan atau revisi kode. Untuk dapat dikembalikan ke sebelumnya, fitur git ini cara kerjanya mirip seperti mesin waktu doraemon.
 
-    <img src="https://vignette.wikia.nocookie.net/doraemon/images/e/e6/Mesin_Waktu_535.jpg/revision/latest?cb=20190812051525&path-prefix=id" width="600" title="Mesin Waktu Doraemon">
+   <img src="https://vignette.wikia.nocookie.net/doraemon/images/e/e6/Mesin_Waktu_535.jpg/revision/latest?cb=20190812051525&path-prefix=id" width="600" title="Mesin Waktu Doraemon">
  
 ### Membatalkan Perubahan File yang Sudah dalam Kondisi staged
 
