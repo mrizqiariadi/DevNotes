@@ -372,9 +372,9 @@ Pada saat anda sudah melakukan perintah __Git Add__ artinya perubahan _file_ / k
 
     Kemudian, lakukan __git add__ melalui __Command Prompt (CMD)__ anda, sebagai berikut:
   
-    ```
+    ```cmd
     C:\Users\<yourusername>CD Documents\First-Repository
-    C:\Users\<yourusername>git add .
+    C:\Users\<yourusername>\Documents\First-Repository>git add .
     ```
     
     Periksa _staging area_ dengan perintah __git status__. Perhatikan, apakah terdapat _file_ yang sudah berada di _staging area_?.
@@ -443,8 +443,8 @@ Selanjutnya, kita akan belajar untuk membatalkan perubahan yang sudah dilakukan 
   
     ```
     C:\Users\<yourusername>CD Documents\First-Repository
-    C:\Users\<yourusername>git add .
-    C:\Users\<yourusername>git commit -m "Update"
+    C:\Users\<yourusername>\Documents\First-Repository>git add .
+    C:\Users\<yourusername>\Documents\First-Repository>git commit -m "Update"
     ```
     
 2. Gunakan perintah __git log__ untuk dapat melihat _history commit_ yang telah dilakukan. perhatikan _log_ kedua yang diberi tanda sebagai berikut:
@@ -454,7 +454,7 @@ Selanjutnya, kita akan belajar untuk membatalkan perubahan yang sudah dilakukan 
 3. selanjutnya lakukan __checkout__ dengan 7 digit SHA / id commit anda. Untuk dapat kembali ke _commit_ yang sebelumnya, dengan perintah sebagai berikut:
 
     ```
-      git checkout 8cafdb7 index.html
+    C:\Users\<yourusernam\Documents\First-Repository>git checkout 8cafdb7 index.html
     ```
     
     Pada saat ini file index.html yang anda kembalikan berada di _staging area_. untuk mengembalikan ke _working area_ anda gunakan perintah sebagai berikut:
@@ -478,23 +478,24 @@ Sebelumnya kita sudah belajar menambah, merubah dan mengembalikan perubahan pada
 1. Buka __Command Prompt (CMD)__ anda, lakukan pembuatan _Branch_ baru bernama __Fitur-A__ dengan cara sebagai berikut:
 
     ```
-      git branch Fitur-A
+    C:\Users\<yourusername>CD Documents\First-Repository
+    C:\Users\<yourusername>\Documents\First-Repository>git branch Fitur-A
     ```
 
     kemudian lihat _Branch_ yang tersedia saat ini dengan perintah __git branch__, maka hasilnya sebagai berikut:
     
     ```
-      git branch
+    C:\Users\<yourusername>\Documents\First-Repository>git branch
     ```
     
    <img src="images/git_branch.JPG" width="600" title="ilustrasi branch">
     
-   `Catatan: / asteriks artinya branch yang saat ini anda gunakan.`
+   `Catatan: * / asteriks artinya branch yang saat ini anda gunakan.`
     
 2. Selanjutnya, pindah ke _Fitur-A Branch_ untuk melakukan pengembangan aplikasi anda tanpa menggangu _Master Branch_. Lakukan perintah __git checkout (nama branch)__ sebagai berikut:
 
     ```
-      git  checkout Fitur-A
+    C:\Users\<yourusername>\Documents\First-Repository>git  checkout Fitur-A
     ```
 
     Kemudian lihat kembali saat ini anda sudah berada pada __Fitur-A Branch__, maka hasilnya sebagai berikut:
@@ -505,6 +506,42 @@ Sebelumnya kita sudah belajar menambah, merubah dan mengembalikan perubahan pada
     
    <img src="images/git_checkout_branch.JPG" width="600" title="ilustrasi branch">
     
+3. Buat perubahan pada __Fitur-A Branch__. Lakukan penambahan pada _file_ index.html sebagai berikut:
+    
+    ```html
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Latihan GitHub</title>
+      </head>
+      <body>
+        <header>
+            Selamat datang di DevNotes
+        </header>
+        <section class="content">
+            <p>Merubah isi file github</p>
+
+            <h3>Penambahan Fitur-A Oke Bro ^_^</h3>
+        </section>
+        <Footer>
+            Terima Kasih
+        </Footer>
+      </body>
+      </html>
+    ```
+    
+    Kemudian lakukan perintah __git add__ dan __git commit__ sebagai berikut:
+    
+    ```
+    C:\Users\<yourusername>\Documents\First-Repository>git add .
+    C:\Users\<yourusername>\Documents\First-Repository>git commit -m "add fitur-a"
+    C:\Users\<yourusername>\Documents\First-Repository>git push origin Fitur-A
+    ```
+    
+
 
 ## Daftar Kata-kata
 * __Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
