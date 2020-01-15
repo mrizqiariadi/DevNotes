@@ -336,7 +336,7 @@ Untuk mengubah kode anda pada saat terjadi kesalahan atau ingin menambah kode da
 
 Dalam melakukan _Developing Apps_ akan memungkinkan anda melakukan kesalahan atau revisi kode. Untuk dapat dikembalikan ke sebelumnya, fitur git ini cara kerjanya mirip seperti mesin waktu doraemon.
 
- <img src="https://vignette.wikia.nocookie.net/doraemon/images/e/e6/Mesin_Waktu_535.jpg/revision/latest?cb=20190812051525&path-prefix=id" width="600" title="Mesin Waktu Doraemon">
+    <img src="https://vignette.wikia.nocookie.net/doraemon/images/e/e6/Mesin_Waktu_535.jpg/revision/latest?cb=20190812051525&path-prefix=id" width="600" title="Mesin Waktu Doraemon">
  
 ### Membatalkan Perubahan File yang Sudah dalam Kondisi staged
 
@@ -471,6 +471,39 @@ Selanjutnya, kita akan belajar untuk membatalkan perubahan yang sudah dilakukan 
 Sebelumnya kita sudah belajar menambah, merubah dan mengembalikan perubahan pada Git. tapi anda masih menggunakan _Default Branch_ atau _Branch_ utama pada saat pertama kali menggunakan Git dalam melakukan pengembangan aplikasi. Ketika anda melakukan pengembangan aplikasi bersama rekan-rekan dengan menggunakan _Master Branch_. Akan memungkinkan anda terjadi konflik dengan rekan-rekan yang lain karena mengubah _file_ yang sama di pada _Master Branch_.
 
 `Solusi: masing-masing rekan anda dalam satu tim membuat branch sendiri-sendiri dengan seperti itu tidak akan menggangu _Branch_ utama / master branch`
+
+    <img src="images/ilustrasi-branch.png" width="600" title="ilustrasi branch">
+  
+1. Buka __Command Prompt (CMD)__ anda, lakukan pembuatan _Branch_ baru bernama __Fitur-A__ dengan cara sebagai berikut:
+
+    ```
+      git branch Fitur-A
+    ```
+
+kemudian lihat _Branch_ yang tersedia saat ini dengan perintah __git branch__, maka hasilnya sebagai berikut:
+    
+    ```
+      git branch
+    ```
+    
+    <img src="images/git_branch.png" width="600" title="ilustrasi branch">
+    
+    `Catatan: * / asteriks artinya branch yang saat ini anda gunakan.`
+    
+2. Selanjutnya, pindah ke _Fitur-A Branch_ untuk melakukan pengembangan aplikasi anda tanpa menggangu _Master Branch_. Lakukan perintah __git checkout (nama branch)__ sebagai berikut:
+
+    ```
+      git  checkout Fitur-A
+    ```
+
+Kemudian lihat kembali saat ini anda sudah berada pada __Fitur-A Branch__, maka hasilnya sebagai berikut:
+
+    ```
+      git branch
+    ```
+    
+    <img src="images/git_checkout_branch.png" width="600" title="ilustrasi branch">
+    
 
 ## Daftar Kata-kata
 * __Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
