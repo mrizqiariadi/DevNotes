@@ -481,13 +481,13 @@ Sebelumnya kita sudah belajar menambah, merubah dan mengembalikan perubahan pada
       git branch Fitur-A
     ```
 
-kemudian lihat _Branch_ yang tersedia saat ini dengan perintah __git branch__, maka hasilnya sebagai berikut:
+    kemudian lihat _Branch_ yang tersedia saat ini dengan perintah __git branch__, maka hasilnya sebagai berikut:
     
     ```
       git branch
     ```
     
-   <img src="images/git_branch.png" width="600" title="ilustrasi branch">
+   <img src="images/git_branch.JPG" width="600" title="ilustrasi branch">
     
    `Catatan: / asteriks artinya branch yang saat ini anda gunakan.`
     
@@ -497,13 +497,13 @@ kemudian lihat _Branch_ yang tersedia saat ini dengan perintah __git branch__, m
       git  checkout Fitur-A
     ```
 
-Kemudian lihat kembali saat ini anda sudah berada pada __Fitur-A Branch__, maka hasilnya sebagai berikut:
+    Kemudian lihat kembali saat ini anda sudah berada pada __Fitur-A Branch__, maka hasilnya sebagai berikut:
 
     ```
       git branch
     ```
     
-   <img src="images/git_checkout_branch.png" width="600" title="ilustrasi branch">
+   <img src="images/git_checkout_branch.JPG" width="600" title="ilustrasi branch">
     
 
 ## Daftar Kata-kata
