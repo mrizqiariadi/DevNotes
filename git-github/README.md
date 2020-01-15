@@ -223,9 +223,9 @@ Ada banyak perintah yang dapat anda lakukan, tetapi kita akan belajar beberapa p
       </body>
       </html>
     ``` 
-Selanjutnya pastikan file sudah diletakkan pada folder __First-Repository__.
+   Selanjutnya pastikan file sudah diletakkan pada folder __First-Repository__.
 
-<img src="images/locate_index_html.JPG" width="350" title="locate index file">
+   <img src="images/locate_index_html.JPG" width="350" title="locate index file">
 
 2. Buka __Command Prompt (CMD)__ anda, pindah folder ke __First-Repository__ dengan perintah sebagai berikut:
 
@@ -233,10 +233,11 @@ Selanjutnya pastikan file sudah diletakkan pada folder __First-Repository__.
       cd Documents\First-Repository
     ```
 
-selanjutnya, setting email dan nama pengguna secara global dengan perintah sebagai berikut:
+   selanjutnya, setting email dan nama pengguna secara global dengan perintah sebagai berikut:
    
-      git config --global user.email you@email.com
-      git config --global user.name yourname 
+        git config --global user.email you@email.com
+        git config --global user.name yourname 
+   
     
 3. Setelah anda berpindah folder dan set email dan nama, lakukan perintah untuk memindahkan _file_ tersebut ke _staging area_ dengan perintah sebagai berikut:
 
@@ -244,7 +245,7 @@ selanjutnya, setting email dan nama pengguna secara global dengan perintah sebag
       git add index.html
     ```
 
-`Penting: Anda juga dapat melakukan perintah git add untuk ke semua file/folder yang ditambahkan pada repositori tersebut. Dengan perintah git add . (dot) yang artinya anda menambahkan semua file/folder baru ke staging area. `
+    `Penting: Anda juga dapat melakukan perintah git add untuk ke semua file/folder yang ditambahkan pada repositori tersebut. Dengan perintah git add . (dot) yang artinya anda menambahkan semua file/folder baru ke staging area. `
 
 4. Kemudian lakukan commit untuk melakukan kompres data menjadi SHA agar dapat di ungguh ke repositori GitHub anda. Dengan perintah sebagai berikut:
 
@@ -258,12 +259,12 @@ selanjutnya, setting email dan nama pengguna secara global dengan perintah sebag
       git push -u origin master
     ```
 
-Lakukan check pada repositori First-Repository di GitHub anda.
-<img src="images/first_push.JPG" width="800" title="First Push">
+   Lakukan check pada repositori First-Repository di GitHub anda.
+   <img src="images/first_push.JPG" width="800" title="First Push">
 
-`Penting: Pada saat anda melakukan kolaborasi develop apps bersama teman/rekan anda, pastikan untuk selalu memeriksa perubahan yang dilakukan teman/rekan anda dengan menggunakan perintah git pull atau dapat melihat log dengan perintah git log.`
+   `Penting: Pada saat anda melakukan kolaborasi develop apps bersama teman/rekan anda, pastikan untuk selalu memeriksa perubahan yang dilakukan teman/rekan anda dengan menggunakan perintah git pull atau dapat melihat log dengan perintah git log.`
 
-- [x] Selamat anda telah berhasil melakukan _push_ pertama :+1:
+   - [x] Selamat anda telah berhasil melakukan _push_ pertama :+1:
 
 ## Mengubah _File / Folder_ pada GitHub
 
@@ -336,7 +337,7 @@ Untuk mengubah kode anda pada saat terjadi kesalahan atau ingin menambah kode da
 
 Dalam melakukan _Developing Apps_ akan memungkinkan anda melakukan kesalahan atau revisi kode. Untuk dapat dikembalikan ke sebelumnya, fitur git ini cara kerjanya mirip seperti mesin waktu doraemon.
 
- <img src="https://vignette.wikia.nocookie.net/doraemon/images/e/e6/Mesin_Waktu_535.jpg/revision/latest?cb=20190812051525&path-prefix=id" width="600" title="Mesin Waktu Doraemon">
+   <img src="https://vignette.wikia.nocookie.net/doraemon/images/e/e6/Mesin_Waktu_535.jpg/revision/latest?cb=20190812051525&path-prefix=id" width="600" title="Mesin Waktu Doraemon">
  
 ### Membatalkan Perubahan File yang Sudah dalam Kondisi staged
 
@@ -372,9 +373,9 @@ Pada saat anda sudah melakukan perintah __Git Add__ artinya perubahan _file_ / k
 
     Kemudian, lakukan __git add__ melalui __Command Prompt (CMD)__ anda, sebagai berikut:
   
-    ```
+    ```cmd
     C:\Users\<yourusername>CD Documents\First-Repository
-    C:\Users\<yourusername>git add .
+    C:\Users\<yourusername>\Documents\First-Repository>git add .
     ```
     
     Periksa _staging area_ dengan perintah __git status__. Perhatikan, apakah terdapat _file_ yang sudah berada di _staging area_?.
@@ -388,7 +389,7 @@ Pada saat anda sudah melakukan perintah __Git Add__ artinya perubahan _file_ / k
      
 2. Kita dapat mengubah statusnya menjadi kondisi _modified_, lakukan perintah seperti berikut:
    
-   ```
+    ```
     git reset index.html
     ```
    
@@ -402,6 +403,7 @@ Pada saat anda sudah melakukan perintah __Git Add__ artinya perubahan _file_ / k
     ```
   
     Lakukan _check_ pada _project_ / kode anda, maka hasilnya akan kembali seperti sebelumnya. Hasilnya sebagai berikut:
+    
     <img src="images/result_git_checkout_staged.JPG" width="500" title="Staging Area">
 
     - [x] Selamat anda telah berhasil melakukan pengembalian perubahan dalam keadaan staged :+1:
@@ -442,8 +444,8 @@ Selanjutnya, kita akan belajar untuk membatalkan perubahan yang sudah dilakukan 
   
     ```
     C:\Users\<yourusername>CD Documents\First-Repository
-    C:\Users\<yourusername>git add .
-    C:\Users\<yourusername>git commit -m "Update"
+    C:\Users\<yourusername>\Documents\First-Repository>git add .
+    C:\Users\<yourusername>\Documents\First-Repository>git commit -m "Update"
     ```
     
 2. Gunakan perintah __git log__ untuk dapat melihat _history commit_ yang telah dilakukan. perhatikan _log_ kedua yang diberi tanda sebagai berikut:
@@ -453,7 +455,7 @@ Selanjutnya, kita akan belajar untuk membatalkan perubahan yang sudah dilakukan 
 3. selanjutnya lakukan __checkout__ dengan 7 digit SHA / id commit anda. Untuk dapat kembali ke _commit_ yang sebelumnya, dengan perintah sebagai berikut:
 
     ```
-      git checkout 8cafdb7 index.html
+    C:\Users\<yourusernam\Documents\First-Repository>git checkout 8cafdb7 index.html
     ```
     
     Pada saat ini file index.html yang anda kembalikan berada di _staging area_. untuk mengembalikan ke _working area_ anda gunakan perintah sebagai berikut:
@@ -468,9 +470,79 @@ Selanjutnya, kita akan belajar untuk membatalkan perubahan yang sudah dilakukan 
 
 ## DevNotes Membuat _Branch_ pada Git
 
-Sebelumnya kita sudah belajar menambah, merubah dan mengembalikan perubahan pada Git. tapi anda masih menggunakan _Default Branch_ atau _Branch_ utama pada saat pertama kali menggunakan Git dalam melakukan pengembangan aplikasi. Ketika anda melakukan pengembangan aplikasi bersama rekan-rekan dengan menggunakan _Master Branch_. Akan memungkinkan anda terjadi konflik dengan rekan-rekan yang lain karena mengubah _file_ yang sama di pada _Master Branch_.
+Sebelumnya kita sudah belajar menambah, merubah dan mengembalikan perubahan pada Git. tapi anda masih menggunakan _Default Branch_ atau _Branch_ utama pada saat pertama kali menggunakan Git dalam melakukan pengembangan aplikasi. Ketika anda melakukan pengembangan aplikasi bersama rekan-rekan dengan menggunakan _Master Branch_. Akan memungkinkan anda terjadi konflik dengan rekan-rekan yang lain karena mengubah _file_ yang sama pada _Master Branch_.
 
-`Solusi: masing-masing rekan anda dalam satu tim membuat branch sendiri-sendiri dengan seperti itu tidak akan menggangu _Branch_ utama / master branch`
+`Solusi: masing-masing rekan anda dalam satu tim membuat branch sendiri-sendiri dengan seperti itu tidak akan menggangu Branch utama / master branch`
+  
+   <img src="images/ilustrasi-branch.png" width="500" title="Git Log">
+  
+1. Buka __Command Prompt (CMD)__ anda, lakukan pembuatan _Branch_ baru bernama __Fitur-A__ dengan cara sebagai berikut:
+
+    ```
+    C:\Users\<yourusername>CD Documents\First-Repository
+    C:\Users\<yourusername>\Documents\First-Repository>git branch Fitur-A
+    ```
+
+    kemudian lihat _Branch_ yang tersedia saat ini dengan perintah __git branch__, maka hasilnya sebagai berikut:
+    
+    ```
+    C:\Users\<yourusername>\Documents\First-Repository>git branch
+    ```
+    
+   <img src="images/git_branch.JPG" width="600" title="ilustrasi branch">
+    
+   `Catatan: * / asteriks artinya branch yang saat ini anda gunakan.`
+    
+2. Selanjutnya, pindah ke _Fitur-A Branch_ untuk melakukan pengembangan aplikasi anda tanpa menggangu _Master Branch_. Lakukan perintah __git checkout (nama branch)__ sebagai berikut:
+
+    ```
+    C:\Users\<yourusername>\Documents\First-Repository>git  checkout Fitur-A
+    ```
+
+    Kemudian lihat kembali saat ini anda sudah berada pada __Fitur-A Branch__, maka hasilnya sebagai berikut:
+
+    ```
+      git branch
+    ```
+    
+   <img src="images/git_checkout_branch.JPG" width="600" title="ilustrasi branch">
+    
+3. Buat perubahan pada __Fitur-A Branch__. Lakukan penambahan pada _file_ index.html sebagai berikut:
+    
+    ```html
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Latihan GitHub</title>
+      </head>
+      <body>
+        <header>
+            Selamat datang di DevNotes
+        </header>
+        <section class="content">
+            <p>Merubah isi file github</p>
+
+            <h3>Penambahan Fitur-A Oke Bro ^_^</h3>
+        </section>
+        <Footer>
+            Terima Kasih
+        </Footer>
+      </body>
+      </html>
+    ```
+    
+    Kemudian lakukan perintah __git add__ dan __git commit__ sebagai berikut:
+    
+    ```
+    C:\Users\<yourusername>\Documents\First-Repository>git add .
+    C:\Users\<yourusername>\Documents\First-Repository>git commit -m "add fitur-a"
+    C:\Users\<yourusername>\Documents\First-Repository>git push origin Fitur-A
+    ```
+    
+
 
 ## Daftar Kata-kata
 * __Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
