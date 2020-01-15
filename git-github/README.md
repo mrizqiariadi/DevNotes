@@ -192,7 +192,10 @@ Ada banyak perintah yang dapat anda lakukan, tetapi kita akan belajar beberapa p
    1. Anda mengubah berkas dalam _working directory_ Anda.
    2. Anda menyiapkan berkasnya, menambah snapshot darinya ke _staging area_ Anda.
    3. Anda melakukan _commit_, yang mengambil berkas-berkas yang ada pada _staging area_ dan menyimpan _snapshot_ tersebut secara tetap ke dalam direktori Git Anda.
-    <img src="https://git-scm.com/book/en/v2/images/areas.png" width="500" title="areas">
+   
+    <img src="https://git-scm.com/book/en/v2/images/areas.png" width="400" title="areas">
+    
+    <img src="images/basic-usage.svg" width="400" title="areas">
 
 ### Buat File Latihan
 
