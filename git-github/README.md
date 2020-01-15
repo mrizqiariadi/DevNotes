@@ -541,7 +541,13 @@ Sebelumnya kita sudah belajar menambah, merubah dan mengembalikan perubahan pada
     C:\Users\<yourusername>\Documents\First-Repository>git commit -m "add fitur-a"
     C:\Users\<yourusername>\Documents\First-Repository>git push origin Fitur-A
     ```
+    `Catatan: origin artinya melakukan push ke Repository Github anda`
     
+    Periksa _repository_ GitHub anda, maka hasilnya sebagai berikut:
+    
+    <img src="images/branch_repository_github.JPG" width="800" title="Branch Repository GitHub">
+    
+    - [x] Selamat anda telah berhasil membuat dan melakukan perubahan pada _Branch_ baru :+1:
 
 
 ## Daftar Kata-kata
