@@ -579,15 +579,25 @@ Sebelumnya kita sudah belajar membuat branch baru bernama __Fitur-A__. Tujuan de
     C:\Users\<yourusername>\Documents\First-Repository> git branch
     ```
     
-    `Penting: Coba perhatikan kode anda pada index.html. Apakah kode anda sama dengan branch Fitur-A ?`
+    `Penting: Coba perhatikan kode index.html anda. Apakah kode anda sama dengan branch Fitur-A ? maka perlu dilakukan merge`
 
-3. Sekarang kita dapat melakukan penggabungan kode / _merge_ master dengan perintah sebagai berikut:
+3. Sekarang kita dapat melakukan penggabungan kode / _merge_ ke master _branch_ dengan perintah sebagai berikut:
     
     ```
     C:\Users\<yourusername>\Documents\First-Repository> git merge Fitur-A
     ```
     
+    `Catatan: Saat ini anda hanya melakukan merge pada master branch anda di git lokal / komputer anda saja`
+
+4. kemudian anda lakukan __push__ dari __master branch__ komputer anda ke __master branch__ di GitHub. Gunakan perintah _git push_ sebagai berikut:
+
+    ```
+    C:\Users\<yourusername>\Documents\First-Repository> git push origin master
+    ```
     
+    Periksa First-Repository di GitHub anda !
+    
+    - [x] Selamat anda telah berhasil melakukan _merge branch_ :+1:
     
 ## Daftar Kata-kata
 * __Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
