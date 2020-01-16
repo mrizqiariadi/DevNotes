@@ -25,9 +25,10 @@ Twitter : [M Rizqi Ariadi](https://twitter.com/MRizqiAriadi)
       * Buat File Latihan
     * Mengubah _File_ pada GitHub
     * Membatalkan Perubahan GIT
-    * Menggunakan GIT pada windows
-    * Menggunakan GIT pada Linux
-    * Menggunakan GITHUB DEKSTOP
+      * Membatalkan Perubahan File yang Sudah dalam Kondisi staged
+      * Membatalkan Perubahan File / Folder yang Sudah dalam Kondisi Commited
+    * Membuat Branch pada Git
+    * Menggabungkan Branch (MERGE) pada Git
     * Daftar Kata-Kata
 
 2. BASH SCRIPTING (COMING SOON)
