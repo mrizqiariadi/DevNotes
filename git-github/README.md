@@ -561,7 +561,7 @@ Sebelumnya kita sudah belajar menambah, merubah dan mengembalikan perubahan pada
 
 Sebelumnya kita sudah belajar membuat branch baru bernama __Fitur-A__. Tujuan dengan adanya penambahan _Branch_ pada _repository_ GitHub anda agar tidak terjadi konflik pada saat melakukan pengembangan aplikasi bersama rekan anda. Namun, ketika fitur yang anda kembangkan sudah selesai, maka kode tersebut dapat anda gabungkan kembali ke _Master Branch_. Untuk dapat di _pull_ / ambil oleh rekan-rekan anda untuk di lakukan (Unit Testing) dan dapat di _Deployment_ ke _Live_.
 
-   <img src="images/ilustrasi-branch-merge.JPG" width="800" title="Branch Repository GitHub">
+   <img src="images/ilustrasi-branch-merge.png" width="800" title="Branch Repository GitHub">
 
 1. Buka __Command Prompt (CMD)__ pastikan anda masih berada dalam folder __Document\First-Repository__. kemudian periksa anda sedang berada di Branch mana, dengan perintah sebagai berikut:
 
