@@ -16,6 +16,7 @@ Pada DevNotes kali ini, Anda akan mempelajari bagaimana cara membuat Repository 
 
 ### Git
 * [Download Git](http://git-scm.com) - Git for All Platforms
+
   Git distributions for Linux and POSIX systems are available on
   the official Git SCM web site.
 
