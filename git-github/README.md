@@ -12,14 +12,20 @@ Twitter : [M Rizqi Ariadi](https://twitter.com/MRizqiAriadi)
 
 Pada DevNotes kali ini, Anda akan mempelajari bagaimana cara membuat Repository pada GitHub dan bagaimana menggunakan git dalam _development apps_. Hasil dari DevNotes kali ini akan seperti ini:
 
-## Tools Yang Dibutuhkan
+## Tools (Requirements)
 
-* [GitHub Dekstop](https://desktop.github.com/) - GitHub Dekstop for Windows/Mac
+### Git
+* [Download Git](http://git-scm.com) - Git for All Platforms
+  Git distributions for Linux and POSIX systems are available on
+  the official Git SCM web site.
 
-* [Git](http://git-scm.com) - Git for All Platforms
+* [Optional GitHub Dekstop](https://desktop.github.com/) - GitHub Dekstop for Windows/Mac
 
-Git distributions for Linux and POSIX systems are available on
-the official Git SCM web site.
+### Editor
+
+* [Download Visual Studio Code](https://code.visualstudio.com/download) - Visual Studio Code (Editor)
+
+`Tidak direkomendasikan menggunakan notepad bawaan windows, tapi untuk pengguna Linux bisa menggunakan Vim / Nano`
 
 ## Teori Version Control
 
@@ -548,8 +554,40 @@ Sebelumnya kita sudah belajar menambah, merubah dan mengembalikan perubahan pada
     <img src="images/branch_repository_github2.JPG" width="800" title="Branch Repository GitHub">
     
     - [x] Selamat anda telah berhasil membuat dan melakukan perubahan pada _Branch_ baru :+1:
+    
 
+## DevNotes Menggabungkan Branch (MERGE) pada Git
 
+Sebelumnya kita sudah belajar membuat branch baru bernama __Fitur-A__. Tujuan dengan adanya penambahan _Branch_ pada _repository_ GitHub anda agar tidak terjadi konflik pada saat melakukan pengembangan aplikasi bersama rekan anda. Namun, ketika fitur yang anda kembangkan sudah selesai, maka kode tersebut dapat anda gabungkan kembali ke _Master Branch_. Untuk dapat di _pull_ / ambil oleh rekan-rekan anda untuk di lakukan (Unit Testing) dan dapat di _Deployment_ ke _Live_.
+
+   <img src="images/ilustrasi-branch-merge.JPG" width="800" title="Branch Repository GitHub">
+
+1. Buka __Command Prompt (CMD)__ pastikan anda masih berada dalam folder __Document\First-Repository__. kemudian periksa anda sedang berada di Branch mana, dengan perintah sebagai berikut:
+
+    ```
+    C:\Users\<yourusername>\Documents\First-Repository> git status
+    C:\Users\<yourusername>\Documents\First-Repository> git branch
+    ```
+    
+    `Catatan: Perhatikan apabila terdapat * / asterisk di depan nama branch maka anda berada di branch tersebut`
+    
+2. Saat ini anda berada pada _Branch_ __Fitur-A__. Lakukan perintah __checkout__ untuk pindah ke __Master Branch__ sebagai berikut:
+    
+    ```
+    C:\Users\<yourusername>\Documents\First-Repository> git checkout master
+    C:\Users\<yourusername>\Documents\First-Repository> git branch
+    ```
+    
+    `Penting: Coba perhatikan kode anda pada index.html. Apakah kode anda sama dengan branch Fitur-A ?`
+
+3. Sekarang kita dapat melakukan penggabungan kode / _merge_ master dengan perintah sebagai berikut:
+    
+    ```
+    C:\Users\<yourusername>\Documents\First-Repository> git merge Fitur-A
+    ```
+    
+    
+    
 ## Daftar Kata-kata
 * __Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
 * __GitHub__        : _Platform_ untuk hosting dan berkolaborasi pada repositori GIT.
