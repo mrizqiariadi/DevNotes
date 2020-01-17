@@ -37,6 +37,8 @@ Twitter : [M Rizqi Ariadi](https://twitter.com/MRizqiAriadi)
 
 4. FLUTTER (COMING SOON)
 
+5. Laravel Rest API (COMING SOON)
+
 ...
 
 ## Blog
