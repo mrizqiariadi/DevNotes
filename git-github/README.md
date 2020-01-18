@@ -239,7 +239,13 @@ Ada banyak perintah yang dapat anda lakukan, tetapi kita akan belajar beberapa p
     ```
       cd Documents\First-Repository
     ```
-
+    
+   Lakukan pengecekkan username dan name dengan perintah berikut:
+   
+    ```
+    git config --list --show-origin
+    ```
+    
    selanjutnya, setting email dan nama pengguna secara global dengan perintah sebagai berikut:
    
         git config --global user.email you@email.com
