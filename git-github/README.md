@@ -599,6 +599,13 @@ Sebelumnya kita sudah belajar membuat branch baru bernama __Fitur-A__. Tujuan de
     
     - [x] Selamat anda telah berhasil melakukan _merge branch_ :+1:
     
+## Info Tambahan Perintah Git
+
+* gitk : GUI Git Bawaan
+* git config color.ui true :menggunakan output Git penuh warna
+* git config format.pretty oneline : menunjukkan log satu baris per commit
+* git add -i : menggunakan penambaan interaktif
+
 ## Daftar Kata-kata
 * __Git__           : Sistem Kontrol Versi Terdistribusi yang _open source_.
 * __GitHub__        : _Platform_ untuk hosting dan berkolaborasi pada repositori GIT.
