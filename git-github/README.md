@@ -423,7 +423,7 @@ Pada saat anda sudah melakukan perintah __Git Add__ artinya perubahan _file_ / k
 
 ### Membatalkan Perubahan _File / Folder_ yang Sudah dalam Kondisi Commited
 
-Selanjutnya, kita akan belajar untuk membatalkan perubahan yang sudah dilakukan __commit__. pada saat anda merasa kode yang dilakukan __commit__ masih ada yang salah.
+Selanjutnya, kita akan belajar untuk membatalkan perubahan yang sudah dilakukan __commit__. pada saat anda merasa kode yang dilakukan __commit__ masih ada yang salah. anda dapat menggunakan perintah __git reset__,Tetapi perintah __git reset__ sering disebut sebagai perintah berbahaya yang dapat menghancurkan catatan sejarah perubahan.
 
 1. Lakukan perubahan pada _Project_ / kode anda, tambahkan beberapa kode sebagai berikut:
 
@@ -465,19 +465,25 @@ Selanjutnya, kita akan belajar untuk membatalkan perubahan yang sudah dilakukan 
 
     <img src="images/git_log_update.JPG" width="500" title="Git Log">
     
-3. selanjutnya lakukan __checkout__ dengan 7 digit SHA / id commit anda. Untuk dapat kembali ke _commit_ yang sebelumnya, dengan perintah sebagai berikut:
+3. selanjutnya lakukan __git reset__ dengan 7 digit SHA / id commit anda. Untuk dapat kembali ke _commit_ yang sebelumnya, dengan perintah sebagai berikut:
 
     ```
-    C:\Users\<yourusernam\Documents\First-Repository>git checkout 8cafdb7 index.html
+    C:\Users\<yourusernam\Documents\First-Repository>git reset --hard <7 digit SHA/commit-hash>
     ```
     
-    Pada saat ini file index.html yang anda kembalikan berada di _staging area_. untuk mengembalikan ke _working area_ anda gunakan perintah sebagai berikut:
+    `--soft akan mengebalikan dengan kondisi file dalam keadaan staged`
+    
+    `--mixed akan mengebalikan dengan kondisi file dalam keadaan modified`
+    
+    `--hard akan mengebalikan dengan kondisi file dalam keadaan commited`
+    
+    Pada saat ini file index.html sudah kembali sesuai posisi yang anda inginkan. Kemudian dapat dilakukan __push__ ke GitHub menggunakan perintah sebagai berikut:
     
     ```
-    git reset index.html
+    git push -f origin master
     ```
 
-    `Penting: Untuk mengembalikan ke commit yang anda inginkan juga dapat menggunakan perintah tersebut, tetapi apabila anda mempunyai    banyak file yang dikembalikan gunakan : git checkout <SHA/ID> tanpa nama file`
+    `Penting: Perhatikan ketika anda melakukan git reset, Sebaiknya jangan lakukan git reset pada repositori yang sudah di bagikan ke publik, karena dapat merusaknya.`
 
     - [x] Selamat anda telah berhasil melakukan pengembalian perubahan dalam keadaan commit :+1:
 
