@@ -415,6 +415,8 @@ Pada saat anda sudah melakukan perintah __Git Add__ artinya perubahan _file_ / k
     git checkout index.html
     ```
   
+    `Penting: Perintah git checkout mengembalikan file dalam kondisi sebelumnya, tapi bersifat sementara.`
+  
     Lakukan _check_ pada _project_ / kode anda, maka hasilnya akan kembali seperti sebelumnya. Hasilnya sebagai berikut:
     
     <img src="images/result_git_checkout_staged.JPG" width="500" title="Staging Area">
@@ -486,6 +488,8 @@ Selanjutnya, kita akan belajar untuk membatalkan perubahan yang sudah dilakukan 
     `Penting: Perhatikan ketika anda melakukan git reset, Sebaiknya jangan lakukan git reset pada repositori yang sudah di bagikan ke publik, karena dapat merusaknya.`
 
     - [x] Selamat anda telah berhasil melakukan pengembalian perubahan dalam keadaan commit :+1:
+    
+    [Referensi Undoing Changes GIT](https://www.atlassian.com/git/tutorials/undoing-changes) - Baca selengkapnya
 
 ## DevNotes Membuat _Branch_ pada Git
 
